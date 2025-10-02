@@ -54,6 +54,7 @@ class CMakeBuild(build_ext):
     def build_extension(self, ext: CMakeExtension) -> None:
         pass
 
+
 version_s = os.getenv("MLIR_PYTHON_EXTRAS_SET_VERSION", "")
 if not version_s:
     now = datetime.now()
