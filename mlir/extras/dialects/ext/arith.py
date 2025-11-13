@@ -46,6 +46,7 @@ from ....ir import (
     Value,
     register_attribute_builder,
 )
+from builtins import globals
 
 
 def constant(
